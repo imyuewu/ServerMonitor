@@ -4,7 +4,9 @@ import com.nero.mail.MailSender;
 import com.nero.utils.Consts;
 import com.nero.utils.ErrorCode;
 import com.nero.utils.XMLHelper;
-import org.w3c.dom.*;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;

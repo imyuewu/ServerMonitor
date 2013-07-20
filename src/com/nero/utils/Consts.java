@@ -1,7 +1,5 @@
 package com.nero.utils;
 
-import org.omg.CORBA.PUBLIC_MEMBER;
-
 /**
  * Created with IntelliJ IDEA.
  * User: nero

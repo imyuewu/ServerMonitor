@@ -33,7 +33,7 @@ public class Task extends TimerTask {
             urlConnection.setConnectTimeout(30 * 1000);
             urlConnection.setReadTimeout(30 * 1000);
             int responseCode = urlConnection.getResponseCode();
-            System.out.println(responseCode);
+//            System.out.println(responseCode);
             if (responseCode == HttpURLConnection.HTTP_OK) lostCount = 0;
 
         } catch (Exception e) {

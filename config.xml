@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <servers>
+        <server>
+            <domain>www.imwooy.com</domain>
+            <reInterval>1*1000</reInterval>
+            <reLostMax>2</reLostMax>
+            <email>nerotech@163.com|nerotech@hotmail.com</email>
+        </server>
+        <server>
+            <domain>www.nala.com.cn</domain>
+            <reInterval>1*1000</reInterval>
+            <reLostMax>5</reLostMax>
+            <email>nerotech@163.com|382089137@qq.com|nerotech@hotmail.com|</email>
+        </server>
+    </servers>
+    <sender>
+        <hostname>smtp.163.com</hostname>
+        <port>25</port>
+        <address>nerotech@163.com</address>
+    </sender>
+</config>
